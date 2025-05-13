@@ -1,0 +1,40 @@
+.nav{
+  margin: 0;
+ padding: 0;
+}
+header{
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/gpht8.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    
+
+}
+nav{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+ .navlinks{
+    display: flex;
+    gap: 20px;
+ }
+.navlinks li{
+    list-style-type: none;
+}
+    header a{
+        text-decoration: none;
+        color: white;
+    }
+    header a:hover{
+        color: yellow;
+    }
+    .header-text button{
+     background-color: transparent;
+     border-radius: 20px;
+     padding: 5px 5px;
+
+    }
+    
