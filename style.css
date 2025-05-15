@@ -1,40 +1,141 @@
-.nav{
-  margin: 0;
- padding: 0;
+
+*{
+    margin: 0;
+    padding: 0;
 }
 header{
-    background-image: url(./images/asset\ 13.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/asset\ 13.jpeg);
+    background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
     color: white;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    height: 100vh;
+
 
 }
+
 nav{
     display: flex;
-    gap: 40px;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
 }
+.giving-text{
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: white;
+}
+.donate-text{
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.donate-btn{
+    border: 0;
+    color: green;
+}
+.help-text{
+    /* width: 70%; */
+    font-size: 60px;
+    letter-spacing: 6px;
+}
+ .donate-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
  .navlinks{
     display: flex;
+    flex-direction: row;
     gap: 20px;
  }
-.navlinks li{
-    list-style-type: none;
-}
-    header a{
-        text-decoration: none;
-        color: white;
-    }
-    header a:hover{
-        color: yellow;
-    }
-    .header-text button{
-     background-color: transparent;
-     border-radius: 20px;
-     padding: 5px 5px;
+.navlinks li a{
+    color: white;
+    text-decoration: none;
 
-    }
-    
+}
+.navlinks li {
+    list-style: none;
+}
+.donate-content{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    gap: 20px;
+
+}
+.medical-icon{
+    font-size: 30px;
+}
+.medical-text{
+    margin-bottom: 10px;
+
+}
+.medi-message{
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+header a:hover{
+    color: yellow;
+}
+.header-text button{
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 5px 5px;
+
+}
+.feature-section{
+    background-image: linear-gradient(rgba(3, 83, 3, 0.5),rgba(24, 94, 24, 0.5) ),url(./images/asset\ 0.jpeg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.school-message{
+    width: 250px;
+    padding-bottom: 40px;
+}
+.featured-text{
+    margin-bottom: 10px;
+}
+.school-text{
+    margin-bottom: 10px;
+}
+.feature-message{
+    margin-bottom: 10px;
+}
+.amount-text{
+    margin-bottom: 10PX;
+}
+.amount-figure{
+    margin-bottom: 10PX;
+
+}
+.pay-btn{
+    background-color: lightskyblue;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 150px;
+    height: 50px;
+}
+.feature-image{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-section{
+    border: 10px solid white;
+
+}
