@@ -3,13 +3,13 @@
  padding: 0;
 }
 header{
-     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/gpht8.jpg);
-    background-position: center;
-    background-attachment: fixed;
+    background-image: url(./images/asset\ 13.jpeg);
     background-size: cover;
     height: 100vh;
     color: white;
-    
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 
 }
 nav{
